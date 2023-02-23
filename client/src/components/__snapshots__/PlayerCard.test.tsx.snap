@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="banner"
+    style={
+      Object {
+        "backgroundImage": "url(https://i.eurosport.com/_iss_/geo/country/flag/medium/6944.png)",
+      }
+    }
+  >
+    <img
+      alt="Avatar"
+      src="https://i.eurosport.com/_iss_/person/pp_clubteam/large/565920.jpg"
+    />
+  </div>
+  <div
+    className="menu"
+  >
+    <div
+      className="opener"
+    >
+      <span />
+      <span />
+      <span />
+    </div>
+  </div>
+  <h2
+    className="name"
+  >
+    Novak
+     
+    Djokovic
+  </h2>
+  <div
+    className="title"
+  >
+    N.DJO
+  </div>
+  <div
+    className="info-wrapper"
+  >
+    <div
+      className="info"
+    >
+      <h2>
+        <div>
+          <span>
+            2
+          </span>
+          <small>
+            Rank
+          </small>
+        </div>
+      </h2>
+      <h2>
+        <div>
+          <span>
+            2542
+          </span>
+          <small>
+            Points
+          </small>
+        </div>
+      </h2>
+    </div>
+    <div
+      className="info"
+    >
+      <h2>
+        <div>
+          <span>
+            80
+          </span>
+          <small>
+            Weight
+          </small>
+        </div>
+      </h2>
+      <h2>
+        <div>
+          <span>
+            1.88
+          </span>
+          <small>
+            Height
+          </small>
+        </div>
+      </h2>
+    </div>
+    <div
+      className="info single"
+    >
+      <h2>
+        <div>
+          <span>
+            31
+          </span>
+          <small>
+            Age
+          </small>
+        </div>
+      </h2>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,18 @@
+version: "3"
+services:
+  client:
+    image: "hirumi16489/tennis-stats-client"
+    mem_limit: 128m
+    hostname: client
+  api:
+    image: "hirumi16489/tennis-stats-server"
+    mem_limit: 128m
+    hostname: api
+    environment:
+    - DATA_URL=https://eurosportdigital.github.io/eurosport-node-developer-recruitment/headtohead.json
+  nginx:
+    image: "hirumi16489/tennis-stats-nginx"
+    mem_limit: 128m
+    hostname: nginx
+    ports:
+      - "80:80"
